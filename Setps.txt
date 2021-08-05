@@ -1,0 +1,4 @@
+1]  npx create-next-app -e with-tailwindcss my-project
+    cd my-project
+
+2]  
