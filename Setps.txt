@@ -8,3 +8,9 @@ npm install --save react date-fns
 
 for that little loading Indicator
 - npm i @badrap/bar-of-progress
+
+To add Map 
+react-map-gl - https://github.com/visgl/react-map-gl 
+
+https://github.com/manuelbieh/geolib
+npm install geolib

@@ -4,7 +4,6 @@ import { StarIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 
 function InfoCard({
-  key,
   img,
   location,
   title,
@@ -13,15 +12,12 @@ function InfoCard({
   price,
   total,
 }) {
-  const flag = false;
 
-  const [heart, setHeart] = useState(flag);
+  const [heart, setHeart] = useState(false);
 
   function toggle() {
     heart ? setHeart(false) : setHeart(true);
   }
-
-  console.log(heart);
 
   return (
     <div className="flex flex-col md:flex-row py-7 md:px-2 md:pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg transition duration-200 ease-in-out first:border-t ">
