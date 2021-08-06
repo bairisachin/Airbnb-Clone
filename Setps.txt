@@ -2,3 +2,9 @@
     cd my-project
 
 2]  
+
+npm install --save react-date-range
+npm install --save react date-fns
+
+for that little loading Indicator
+- npm i @badrap/bar-of-progress

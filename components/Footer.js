@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-100 text-gray-600 md:text-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-10 pt-12 bg-gray-100 text-gray-600 md:text-center">
         <div className="space-y-4 text-xs md:text-sm text-gray-800">
           <h5 className="font-bold">ABOUT</h5>
           <p>How Airbnb works</p>
@@ -46,7 +46,7 @@ function Footer() {
         </div>
 
       </div>
-        <p className="text-center p-3 text-[1rem] font-bold bg-gray-100 text-gray-600"> &#169; Sachin Airbnb Clone - 2021</p>
+        <p className="text-center p-3 text-[1rem] font-bold bg-gray-100 text-[#FD5B61]"> &#169; Sachin Airbnb Clone - 2021</p>
     </div>
   );
 }
